@@ -106,7 +106,7 @@ view: events {
   }
 
   measure: count_test {
-    label: "カウント_test"
+    label: ""
     type: count
     drill_fields: [id, users.last_name, users.id, users.first_name]
     html: <span style="font-size:0px;">{{ rendered_value }}</p> ;;
